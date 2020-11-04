@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
     },{
       plugin: require('/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/gatsby-plugin-layout/gatsby-ssr'),
       options: {"plugins":[],"component":"/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/src/templates/docs.js"},
@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":1035,"sizeByPixelDensity":true}},{"resolve":"gatsby-remark-copy-linked-files"}],"extensions":[".mdx",".md"]},
+      options: {"plugins":[],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":1035,"sizeByPixelDensity":true}},{"resolve":"gatsby-remark-copy-linked-files"}],"extensions":[".mdx",".md"],"defaultLayouts":{},"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"]},
     },{
       plugin: require('/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
       options: {"plugins":[],"trackingId":null,"head":true,"anonymize":false},

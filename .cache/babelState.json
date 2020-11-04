@@ -3,11 +3,11 @@
     "develop": {
       "plugins": [
         {
-          "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "name": "babel-plugin-lodash",
           "options": {}
         },
         {
-          "name": "@babel/plugin-proposal-export-default-from",
+          "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
@@ -21,6 +21,10 @@
         {
           "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "@babel/plugin-proposal-export-default-from",
+          "options": {}
         }
       ],
       "presets": [
@@ -29,13 +33,18 @@
           "options": {
             "sourceMap": true,
             "autoLabel": true,
-            "plugins": []
+            "plugins": [],
+            "labelFormat": "[local]",
+            "cssPropOptimization": true
           }
         },
         {
           "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -47,11 +56,11 @@
     "develop-html": {
       "plugins": [
         {
-          "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "name": "babel-plugin-lodash",
           "options": {}
         },
         {
-          "name": "@babel/plugin-proposal-export-default-from",
+          "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
@@ -65,6 +74,10 @@
         {
           "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "@babel/plugin-proposal-export-default-from",
+          "options": {}
         }
       ],
       "presets": [
@@ -73,13 +86,18 @@
           "options": {
             "sourceMap": true,
             "autoLabel": true,
-            "plugins": []
+            "plugins": [],
+            "labelFormat": "[local]",
+            "cssPropOptimization": true
           }
         },
         {
           "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -91,11 +109,11 @@
     "build-html": {
       "plugins": [
         {
-          "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "name": "babel-plugin-lodash",
           "options": {}
         },
         {
-          "name": "@babel/plugin-proposal-export-default-from",
+          "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
@@ -109,6 +127,10 @@
         {
           "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "@babel/plugin-proposal-export-default-from",
+          "options": {}
         }
       ],
       "presets": [
@@ -117,13 +139,18 @@
           "options": {
             "sourceMap": true,
             "autoLabel": true,
-            "plugins": []
+            "plugins": [],
+            "labelFormat": "[local]",
+            "cssPropOptimization": true
           }
         },
         {
           "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
@@ -135,11 +162,11 @@
     "build-javascript": {
       "plugins": [
         {
-          "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "name": "babel-plugin-lodash",
           "options": {}
         },
         {
-          "name": "@babel/plugin-proposal-export-default-from",
+          "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         },
         {
@@ -153,6 +180,10 @@
         {
           "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "@babel/plugin-proposal-export-default-from",
+          "options": {}
         }
       ],
       "presets": [
@@ -161,13 +192,18 @@
           "options": {
             "sourceMap": true,
             "autoLabel": true,
-            "plugins": []
+            "plugins": [],
+            "labelFormat": "[local]",
+            "cssPropOptimization": true
           }
         },
         {
           "name": "/home/abish/Desktop/Gatsby/Project-Documentation-Gatsby/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
-            "plugins": []
+            "plugins": [],
+            "allExtensions": false,
+            "isTSX": false,
+            "jsxPragma": "React"
           }
         }
       ],
